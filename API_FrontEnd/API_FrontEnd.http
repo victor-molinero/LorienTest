@@ -1,0 +1,11 @@
+@API_FrontEnd_HostAddress = http://localhost:5258
+
+GET {{API_FrontEnd_HostAddress}}/best-stories/10
+Accept: application/json
+
+###
+
+GET {{API_FrontEnd_HostAddress}}/best-stories/50
+Accept: application/json
+
+###
